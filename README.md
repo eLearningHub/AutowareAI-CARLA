@@ -2,7 +2,8 @@
 This is a demostration of the integration of [AutowareAI](https://gitlab.com/autowarefoundation/autoware.ai) and the [CARLA](https://carla.org/) simulator. 
 
 # Installing requirements
-* Install NVIDIA drivers and test them with: `nvidia-smi`
+* This demo works on Ubuntu 18.04 with CUDA 10.2 (you need an NVIDIA graphics card).
+* Install NVIDIA drivers and verify the drivers with: `nvidia-smi`
 * Install Docker: `curl -fsSL https://gitlab.com/nubonetics-ade/utilities/-/raw/master/install-docker.sh | bash`
 * Install the NVIDIA Container Toolkit: `curl -fsSL https://gitlab.com/nubonetics-ade/utilities/-/raw/master/install-nvidia-docker.sh | bash`
 * Install [ADE](https://www.apex.ai/post/ade-ensuring-that-all-developers-in-a-project-have-a-common-consistent-development-environment): `curl -fsSL https://gitlab.com/nubonetics-ade/utilities/-/raw/master/install-ade.sh | bash`
