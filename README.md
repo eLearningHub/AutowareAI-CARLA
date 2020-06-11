@@ -25,3 +25,4 @@ This is a demostration of the integration of [AutowareAI](https://gitlab.com/aut
 * [Autoware in CARLA](https://gitlab.com/autowarefoundation/autoware.ai/simulation/-/tree/master/carla_simulator_bridge)
 * [CARLA Talks 2020](https://carla.org/2020/06/09/talks_2020/)
 * [CARLA Docs](https://carla.readthedocs.io/en/latest/)
+* [ROS bridge for CARLA](https://github.com/carla-simulator/ros-bridge)
