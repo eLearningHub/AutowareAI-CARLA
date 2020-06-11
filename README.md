@@ -1,5 +1,5 @@
 # AutowareAI-and-CARLA
-This is a demostration of the integration of AutowareAI and the CARLA simulator. 
+This is a demostration of the integration of [AutowareAI](https://gitlab.com/autowarefoundation/autoware.ai) and the [CARLA](https://carla.org/) simulator. 
 
 # Installing requirements
 * Install NVIDIA drivers and test them with: `nvidia-smi`
@@ -12,8 +12,9 @@ This is a demostration of the integration of AutowareAI and the CARLA simulator.
 * Go to your ADE home directory: `cd adehome`
 * Create an empty .adehome file: `touch .adehome`
 * Clone this repository: `git clone https://github.com/eLearningHub/AutowareAI-CARLA.git`
+* Enter the clone directory: `cd AutowareAI-CARLA`
 * Run ADE: `ade start --enter`
-* Inside ADE, go to the clone of this repository: `cd AutowareAI-CARLA`
+* Inside ADE, go to the clone directory: `cd AutowareAI-CARLA`
 * Inside ADE, run Carla: `source run-carla.sh`
 * Open another terminal at the ADE home directory and run: `ade enter`
 * Inside ADE, run: `cd AutowareAI-CARLA; source launch-autoware.sh`
