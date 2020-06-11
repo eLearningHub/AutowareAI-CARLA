@@ -1,6 +1,6 @@
 export ADE_DOCKER_RUN_ARGS="--cap-add=SYS_PTRACE --net=host --privileged --add-host ade:127.0.0.1"
 export ADE_IMAGES="
-  registry.gitlab.com/nubodev/ade:melodic
+  registry.gitlab.com/nubodev/ade:melodic-cuda
   registry.gitlab.com/nubodev/autowareai
   registry.gitlab.com/nubodev/carla
   registry.gitlab.com/nubodev/vscode:1.44
