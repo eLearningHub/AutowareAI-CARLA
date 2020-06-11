@@ -1,4 +1,4 @@
-# AutowareAI-and-CARLA
+# AutowareAI and CARLA
 This is a demostration of the integration of [AutowareAI](https://gitlab.com/autowarefoundation/autoware.ai) and the [CARLA](https://carla.org/) simulator. 
 
 # Installing requirements
