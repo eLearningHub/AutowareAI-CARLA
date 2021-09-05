@@ -1,0 +1,6 @@
+nvidia/nvidia-docker2/ubuntu18.04-amd64:latest
+ubuntu:18.04
+registry.gitlab.com/nubodev/ade:melodic-cuda
+registry.gitlab.com/nubodev/autowareai:latest
+registry.gitlab.com/nubodev/carla:latest
+registry.gitlab.com/nubodev/vscode:1.44

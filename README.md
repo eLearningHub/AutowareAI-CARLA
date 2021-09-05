@@ -2,11 +2,11 @@
 This is a demostration of the integration of [AutowareAI](https://gitlab.com/autowarefoundation/autoware.ai) and the [CARLA](https://carla.org/) simulator. 
 
 # Installing requirements
-* This demo works on Ubuntu 18.04 with CUDA 10.2 (you need an NVIDIA graphics card).
+* This demo works on most Linux distributions with CUDA installed (you need an NVIDIA graphics card).
 * Install NVIDIA drivers and verify the drivers with: `nvidia-smi`
-* Install Docker: `curl -fsSL https://gitlab.com/nubonetics-ade/utilities/-/raw/master/ubuntu/bionic/install-docker.sh | bash`
-* Install the NVIDIA Container Toolkit: `curl -fsSL https://gitlab.com/nubonetics-ade/utilities/-/raw/master/nvidia/docker/install-nvidia-docker.sh | bash`
-* Install [ADE](https://www.apex.ai/post/ade-ensuring-that-all-developers-in-a-project-have-a-common-consistent-development-environment): `curl -fsSL https://gitlab.com/nubonetics-ade/utilities/-/raw/master/development/install-ade.sh | bash`
+* This demo requires Docker, NVIDIA Container Toolkit, and [ADE](https://www.apex.ai/post/ade-ensuring-that-all-developers-in-a-project-have-a-common-consistent-development-environment) to be installed. 
+* For a local installation of the requirements run: `bash install_dependencies.sh` after you have cloned this repository. (see [Getting Started](#getting-started) for more information)
+* To remove the installed binaries and the docker images run: `bash remove_dependencies.sh`
 
 # Getting Started
 * Create your workspace directory (you can choose your own name or use an existing folder): `mkdir adehome`
@@ -14,6 +14,7 @@ This is a demostration of the integration of [AutowareAI](https://gitlab.com/aut
 * Create an empty .adehome file: `touch .adehome`
 * Clone this repository: `git clone https://github.com/eLearningHub/AutowareAI-CARLA.git`
 * Enter the clone directory: `cd AutowareAI-CARLA`
+* Here you can choose to install the dependencies with the `bash install_dependencies.sh` (requires `make` package and root privileges)
 * Run ADE: `ade start --enter`
 * Inside ADE, go to the clone directory: `cd AutowareAI-CARLA`
 * Inside ADE, run Carla: `source run-carla.sh`
