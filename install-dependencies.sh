@@ -13,7 +13,7 @@ if [ ! -f /etc/docker/daemon.json ]; then
         sudo touch /etc/docker/daemon.json
 fi;
 
-sudo python3 daemon_check.py
+sudo python3 daemon-check.py
 sleep 2
 sudo dockerd &
 sleep 3
